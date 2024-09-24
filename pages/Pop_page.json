@@ -1,0 +1,140 @@
+{
+  "title": "Pop_page",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 51,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "224",
+    "background": "#5515d6",
+    "borderSize": "1",
+    "pageHeight": "268",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 18,
+        "y": 201,
+        "order": 2,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["Press to win"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Pop_page"
+      },
+      "actions": [
+        {
+          "code": "MESSAGE(\"You've won 1 Euro!\";\"Congratulations!\")\nCLOSE()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 122,
+        "y": 201,
+        "order": 1,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["Press to lose"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Pop_page"
+      },
+      "actions": [
+        {
+          "code": "CLOSE()\nMESSAGE(\"You've won nothing this time!\";\"Sorry\")",
+          "type": "CLICK"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

@@ -1,0 +1,259 @@
+{
+  "title": "NED_2075",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 21,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 315,
+        "y": 29,
+        "order": 2,
+        "width": 181,
+        "height": 74
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [13],
+        "viewType": "HIERARCHY_MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2075"
+      },
+      "actions": [
+        {
+          "code": "#table2",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 670,
+        "y": 33,
+        "order": 3,
+        "width": 340,
+        "height": 474
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table3",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [44,155,155],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2075"
+      },
+      "actions": [
+        {
+          "code": "#menu1",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 38,
+        "y": 29,
+        "order": 1,
+        "width": 226,
+        "height": 375
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "value": [
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [1,146,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [1,"US","350m"],
+          [-2,"New Mexico","20m"],
+          [3,"Albuquerque","10m"],
+          [-2,"Texas","30m"],
+          [3,"Austin","10m"],
+          [3,"San Antonio","5m"],
+          [3,"Houston","5m"],
+          [1,"Europe","600m"],
+          [2,"Germany","85m"],
+          [3,"Berlin","6m"],
+          [3,"München","1m"],
+          [3,"Stuttgart","1m"],
+          [3,"Wolfsburg","0.7m"],
+          [2,"Ukraine","42m"],
+          ["","",""]
+        ],
+        "viewType": "HIERARCHY"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2075"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

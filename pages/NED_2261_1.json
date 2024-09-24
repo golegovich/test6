@@ -1,0 +1,116 @@
+{
+  "title": "NED_2261_1",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 29,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 437,
+        "y": 219,
+        "order": 1,
+        "width": 188,
+        "height": 84
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "filter2otherpage",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [5],
+        "viewType": "MENU",
+        "defaultItem": null,
+        "dataSourceOptions": {
+          "port": "",
+          "type": "ODATA",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://services.odata.org/OData/OData.svc",
+          "endpoint": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Products",
+            "columns": [
+              {
+                "name": "Price",
+                "type": "Edm.String",
+                "sortBy": null
+              }
+            ],
+            "dbFilters": [],
+            "noAggregate": false
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2261_1"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "NED_2261_1",
+    "parentTitle": "NED_2261",
+    "appTitle": "Georgii_nedyx"
+  }
+}

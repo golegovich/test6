@@ -1,0 +1,92 @@
+{
+  "title": "ppp_tbl",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 50,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "224",
+    "background": "#ee0e0e",
+    "borderSize": "1",
+    "pageHeight": "268",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "order": 1,
+        "width": 150,
+        "height": 156
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [""],
+          [""],
+          [""],
+          [""],
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ppp_tbl"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(5; 1)",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

@@ -1,0 +1,850 @@
+{
+  "title": "NED_1991",
+  "actions": [
+    {
+      "code": "MESSAGE(\"Stahp!\"; \"Halt!\")",
+      "type": "OPEN"
+    }
+  ],
+  "displayName": null,
+  "description": null,
+  "position": 13,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "775",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 423,
+        "y": 584,
+        "order": 11,
+        "width": 171,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["FILL CHART"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "#chart1 = #salesData",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 427,
+        "y": 642,
+        "order": 12,
+        "width": 162,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["LOADCONTENT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "LOADWIDGETCONTENT(#chart1)",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 427,
+        "y": 699,
+        "order": 13,
+        "width": 162,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button7",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["CLEARCONTENT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "#chart1 = EMPTY()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 261,
+        "y": 366,
+        "order": 14,
+        "width": 162,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button8",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["LOADCONTENT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "LOADWIDGETCONTENT(#cell1)",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 607,
+        "y": 366,
+        "order": 3,
+        "width": 162,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["CLEARCONTENT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "#menu1 = EMPTY()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 467,
+        "y": 446,
+        "order": 4,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["RAND"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "#menu1 = RAND()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 514,
+        "y": 37,
+        "order": 8,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["FILL MENU"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "#menu1 = COMBINE(\"one\"; \"two\"; \"three\"; vertical)",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 363,
+        "y": 37,
+        "order": 7,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          ["one"],
+          ["two"],
+          ["three"]
+        ],
+        "selected": [2],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": [
+        {
+          "code": "MESSAGE(\"!!!!\"; \"&!&!&±\")",
+          "type": "SWITCH"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showDataInRows": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 28,
+        "y": 37,
+        "order": 9,
+        "width": 227,
+        "height": 139
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "salesData",
+      "cellStyles": {
+        "value": [
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Jan",54,69,78,60,70],
+          ["Feb",67,66,67,70,80],
+          ["Mar",41,24,45,55,60],
+          ["Apr",55,48,45,67,75],
+          ["May",62,52,98,66,71],
+          ["Jun",45,51,32,105,89],
+          ["Jul",55,44,89,70,79],
+          ["Aug",73,53,34,44,60],
+          ["Sep",60,62,55,49,70],
+          ["Oct",76,79,67,90,85],
+          ["Nov",48,51,87,77,65],
+          ["Dec",79,68,90,66,89],
+          ["","","","","",""]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 92,
+        "y": 584,
+        "order": 10,
+        "width": 300,
+        "height": 150
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "chart1",
+      "cellStyles": {
+        "value": [
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "chartType": "Line",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartOffset": 4,
+        "borderRadius": "6",
+        "chartStacked": false,
+        "gridPosition": "both",
+        "chartLineType": "smooth",
+        "chartPosition": "end",
+        "displayLabels": false,
+        "fontUnderline": false,
+        "hasBackground": true,
+        "chartAlignment": "center",
+        "chartLineStyle": "solid",
+        "chartPointSize": 5,
+        "showDataInRows": false,
+        "chartPointShape": "circle",
+        "chartHasZeroLine": false,
+        "chartTransparency": 0.7,
+        "isCenteredDataset": true,
+        "chartLineThickness": 2,
+        "chartZeroLineColor": "#444444",
+        "chartZeroLineWidth": 2
+      },
+      "type": "CHART",
+      "rawData": {
+        "value": [
+          ["Jan",54,69,78,60,70],
+          ["Feb",67,66,67,70,80],
+          ["Mar",41,24,45,55,60],
+          ["Apr",55,48,45,67,75],
+          ["May",62,52,98,66,71],
+          ["Jun",45,51,32,105,89],
+          ["Jul",55,44,89,70,79],
+          ["Aug",73,53,34,44,60],
+          ["Sep",60,62,55,49,70],
+          ["Oct",76,79,67,90,85],
+          ["Nov",48,51,87,77,65],
+          ["Dec",79,68,90,66,89],
+          ["","","","","",""]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 467,
+        "y": 366,
+        "order": 1,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["123 ABC"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 494,
+        "y": 189,
+        "order": 15,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button9",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 34,
+        "y": 200,
+        "order": 16,
+        "width": 348,
+        "height": 205
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "image1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          ["WVIdtc7QeM.png"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1991"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

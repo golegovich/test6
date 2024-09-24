@@ -1,0 +1,96 @@
+{
+  "title": "NED_1855",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 16,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "495",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 55,
+        "y": 57,
+        "order": 1,
+        "width": 434,
+        "height": 691
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,29,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [267,140,140],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1855"
+      },
+      "actions": [
+        {
+          "code": "APPLIST()",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

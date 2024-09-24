@@ -1,0 +1,23 @@
+{
+  "title": "Page9",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 46,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [],
+  "parentId": {
+    "childPageTitle": "Page9",
+    "parentTitle": "Page8",
+    "appTitle": "Georgii_nedyx"
+  }
+}

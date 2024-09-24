@@ -1,0 +1,194 @@
+{
+  "title": "sort_db_columns",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 30,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "718",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 295,
+        "y": 181,
+        "order": 1,
+        "width": 417,
+        "height": 214
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "SSAS",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "table": "Products",
+            "columns": [
+              {
+                "name": "price",
+                "type": "decimal"
+              },
+              {
+                "name": "unit",
+                "type": "varchar"
+              },
+              {
+                "name": "productname",
+                "type": "varchar"
+              }
+            ],
+            "dbFilters": []
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "sort_db_columns"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

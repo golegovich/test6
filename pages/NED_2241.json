@@ -1,0 +1,206 @@
+{
+  "title": "NED_2241",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 19,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 438,
+        "y": 349,
+        "order": 1,
+        "width": 123,
+        "height": 51
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [51],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [123,123,123,123,123],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "right",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "ROW",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "dbName": "EY-DB",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "password": "",
+          "username": "ey_db_user",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "dbFilters": []
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2241"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(1;5)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 52,
+        "y": 94,
+        "order": 2,
+        "width": 745,
+        "height": 72
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""],
+          ["","","","","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SSAS",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "asazure://westeurope.asazure.windows.net/nedyxasdemo",
+          "password": "",
+          "username": "u.abbasbayli@nedyx.com",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "dbFilters": []
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2241"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(10;10)",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

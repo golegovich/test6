@@ -1,0 +1,867 @@
+{
+  "title": "Charts",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 35,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1120",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "834",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "__typename": "WidgetFormat",
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 315,
+        "y": 49,
+        "order": 10,
+        "width": 150,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [1]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": [],
+        "__typename": "WidgetCellStyles"
+      },
+      "styles": {
+        "hasGrid": null,
+        "fontSize": "15",
+        "gridSize": null,
+        "chartMaxY": null,
+        "chartMinY": null,
+        "chartType": null,
+        "fontColor": "#ffffff",
+        "gridColor": null,
+        "hasBorder": false,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "__typename": "WidgetStyles",
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "borderRadius": "6",
+        "chartOptions": null,
+        "chartStacked": null,
+        "gridPosition": null,
+        "chartLineType": null,
+        "displayLabels": null,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "chartLineStyle": null,
+        "chartPointSize": null,
+        "showDataInRows": null,
+        "chartPointShape": null,
+        "chartTransparency": null,
+        "isAdjustToContent": null,
+        "isCenteredDataset": null,
+        "verticalAlignment": "center",
+        "chartLineThickness": null
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["Create PDF"]
+        ],
+        "__typename": "WidgetData"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": [
+        {
+          "code": "PDFCREATE()\nDOWNLOADFILE(\"Charts.pdf\")",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 88,
+        "y": 244,
+        "order": 2,
+        "width": 1028,
+        "height": 581
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "chart1",
+      "cellStyles": {
+        "value": [
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5],
+          [0,1,2,3,4,5]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "20",
+            "fontColor": "#ffffff",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#0a3161",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": true,
+            "borderColor": "#b31942",
+            "borderRadius": "6",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "15",
+            "fontColor": "#222222",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#0057b7",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#ffd700",
+            "borderRadius": "6",
+            "fontTextAlign": "left",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "20",
+            "fontColor": "#ffcc00",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#dd0000",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": true,
+            "borderColor": "#000000",
+            "borderRadius": "6",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "20",
+            "fontColor": "#f4f5f0",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#008c45",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": true,
+            "borderColor": "#cd212a",
+            "borderRadius": "6",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "20",
+            "fontColor": "#ffffff",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#000000",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": true,
+            "borderColor": "#0072CE",
+            "borderRadius": "6",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "20",
+            "fontColor": "#3f9c35",
+            "hasBorder": true,
+            "hasShadow": true,
+            "background": "#ed2939",
+            "borderSize": "6",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": true,
+            "borderColor": "#00b9e4",
+            "borderRadius": "6",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": false,
+        "fontSize": "11",
+        "gridSize": "1",
+        "chartMaxY": null,
+        "chartMinY": null,
+        "chartType": "bubble",
+        "fontColor": "#222222",
+        "gridColor": "#ebeaea",
+        "hasBorder": false,
+        "hasShadow": false,
+        "hideYAxis": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartLegend": true,
+        "chartOffset": 4,
+        "showTooltip": false,
+        "borderRadius": "6",
+        "chartOptions": null,
+        "chartStacked": false,
+        "gridPosition": "horizontal",
+        "chartLineType": "straight",
+        "chartPosition": "end",
+        "displayLabels": false,
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "chartAlignment": "center",
+        "chartLineStyle": "solid",
+        "chartPointSize": 8,
+        "chartSuggested": false,
+        "showDataInRows": false,
+        "chartColumnSize": 80,
+        "chartPointShape": "circle",
+        "chartHasZeroLine": true,
+        "chartTransparency": 0.8,
+        "isCenteredDataset": true,
+        "chartBarPercentage": 80,
+        "chartLineThickness": 1,
+        "chartZeroLineColor": "#444444",
+        "chartZeroLineWidth": 1,
+        "chartLegendPosition": "top",
+        "showDataNameInFirstRow": false
+      },
+      "type": "CHART",
+      "rawData": {
+        "value": [
+          ["Jan",54,69,78,60,70],
+          ["Feb",67,66,67,70,80],
+          ["Mar",41,24,45,55,60],
+          ["Apr",55,48,45,67,75],
+          ["May",62,52,98,66,71],
+          ["Jun",45,51,32,105,89],
+          ["Jul",55,44,89,70,79],
+          ["Aug",73,53,34,44,60],
+          ["Sep",60,62,55,49,70],
+          ["Oct",76,79,67,90,85],
+          ["Nov",48,51,87,77,65],
+          ["Dec",79,68,90,66,89],
+          ["","","","","",""]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": [
+        {
+          "code": "COMBINE(#cell14!style;#cell15!style;#cell16!style; #cell17!style; #cell2!style;#cell6; horizontal)",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 924,
+        "y": 62,
+        "order": 4,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell15",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#0057b7",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#ffd700",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 924,
+        "y": 169,
+        "order": 6,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell17",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "20",
+        "fontColor": "#f4f5f0",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#008c45",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#cd212a",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["TEXT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showDataInRows": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 27,
+        "y": 37,
+        "order": 11,
+        "width": 227,
+        "height": 139
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "salesData",
+      "cellStyles": {
+        "value": [
+          ["",0,1,1,"",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""]
+        ],
+        "stylesMap": [
+          {
+            "hasBorder": true,
+            "background": "#a32a2a",
+            "borderSize": "1",
+            "borderColor": "#8b6464",
+            "hasBackground": true
+          },
+          {
+            "background": "#9c2a2a",
+            "hasBackground": true
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Jan",54,69,78,60,70],
+          ["Feb",67,66,67,70,80],
+          ["Mar",41,24,45,55,60],
+          ["Apr",55,48,45,67,75],
+          ["May",62,52,98,66,71],
+          ["Jun",45,51,32,105,89],
+          ["Jul",55,44,89,70,79],
+          ["Aug",73,53,34,44,60],
+          ["Sep",60,62,55,49,70],
+          ["Oct",76,79,67,90,85],
+          ["Nov",48,51,87,77,65],
+          ["Dec",79,68,90,66,89],
+          ["","","","","",""]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 557,
+        "y": 62,
+        "order": 8,
+        "width": 115,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#ffd700",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#ffd700",
+        "borderRadius": "0",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 557,
+        "y": 27,
+        "order": 9,
+        "width": 115,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#0057b7",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#0057b7",
+        "borderRadius": "0",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 809,
+        "y": 116,
+        "order": 13,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "20",
+        "fontColor": "#3f9c35",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#ed2939",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#00b9e4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["TEXT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 809,
+        "y": 62,
+        "order": 7,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "20",
+        "fontColor": "#ffffff",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#000000",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#0072CE",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["TEXT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 924,
+        "y": 116,
+        "order": 5,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell16",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "20",
+        "fontColor": "#ffcc00",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#dd0000",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#000000",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["TEXT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 924,
+        "y": 0,
+        "order": 3,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell14",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "20",
+        "fontColor": "#ffffff",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#0a3161",
+        "borderSize": "6",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#b31942",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["TEXT"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Charts"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

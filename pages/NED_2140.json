@@ -1,0 +1,100 @@
+{
+  "title": "NED_2140",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 17,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "593",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 437,
+        "y": 349,
+        "order": 1,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SMARTBOOKS_AI",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "eyJraWQiOiJjcGltY29yZV8wOTI1MjAxNSIsInZlciI6IjEuMCIsInppcCI6IkRlZmxhdGUiLCJzZXIiOiIxLjAifQ..gmLMYmrhqu8NrVhU.xmkCF0LB4Fv1cSLU6pFpz_WwXDPXZz8kIeEW12_m-IOjFkA2nlA0n3mGYOfCSEgLq2kFvTdnLjOz_a1ZKuQJ0ggcjmbcZFCSvH5c9ibcCrLZxWN1HFzDEcFC5r-8Mp1WjPxex5iy7hT4VBLw-4D8gmGvtScp8MWO598Ys91F-8ya8bBXKWC2w2aqfJgrpOrNmraGvIayQjectYVaCcMdtlcoJ4ZxIxoij9MYgvpQMP6eAPP6HbAg7-CDdgSsLCCV7QKm2NrVcwN3GB2b8Q6EzJaC8HoAVaflYyZ_pmNyBVBodnkCq8sVWVrh837gEzdmgOOys2YkTS_MQjWdNvE-7SfQG-WHDg_kfWD04z2CDVKRlzlO-w-0AEOjPFEFtK50qd18pfTscxUs9ISbOs5GoC3_kLDGE0RgejziumKUF1pXMWi_WUMBr5KFkrI4B0ci497FoeHS9-WCB988k6SHQkWLHNYyERSgVdLpJkrfPlh1iADf-_5t4gP1MZ5zN4mVQllVscXXAT1HJiO41Ib8QDHS2XiOLXYkD9hmw1Przw4MX5685L9oSm0D5BWOliqd9RnDf9m-HbJzl1uhqFXandg3Hgxh18UAvTxZo1d0Phq8FmQlmTyykz3kln41R7oxYhSh5i94rL-x-R0ijRDT0RFPWDLFSRUkDznXMezSZZTRJ4lYve0s32IS_DHHYaI-48FWqG7KTd8J9INmOBSgAzjOsmU.JlBiuZbi-DMlaE0aoevTKw",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "table": "",
+            "columns": [],
+            "dbFilters": []
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2140"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

@@ -1,0 +1,273 @@
+{
+  "title": "NED_1741",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 9,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "766",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 471,
+        "y": 258,
+        "order": 4,
+        "width": 137,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["click to apply filter"]
+        ],
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "NED_1741.table1",
+          "refreshToken": null,
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "table": "Products",
+            "columns": []
+          }
+        }
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "NED_1741"
+      },
+      "actions": [
+        {
+          "code": "UPDATE(#table1)",
+          "type": "CLICK"
+        },
+        {
+          "code": "#table1!connection",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 135,
+        "y": 366,
+        "order": 1,
+        "width": 625,
+        "height": 244
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,271,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "refreshToken": null,
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "table": "Products",
+            "columns": [],
+            "dbFilters": ["menu1"]
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1741"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 138,
+        "y": 255,
+        "order": 2,
+        "width": 261,
+        "height": 41
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [3],
+        "viewType": "MENU",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "table": "Products",
+            "columns": [
+              {
+                "name": "productname",
+                "type": "varchar"
+              }
+            ]
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_1741"
+      },
+      "actions": [
+        {
+          "code": "CLICK(#button1)",
+          "type": "SWITCH"
+        },
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}

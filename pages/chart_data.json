@@ -1,0 +1,420 @@
+{
+  "title": "chart_data",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 52,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 32,
+        "y": 11,
+        "order": 1,
+        "width": 406,
+        "height": 304
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [false]
+        ]
+      },
+      "title": "table5",
+      "cellStyles": {
+        "value": [
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""],
+          ["","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["","","","","","",""],
+          ["","cwerferv","аука","","","",""],
+          ["","","","","","",""],
+          ["","wet","e3fw4f34","","","",""],
+          ["dwdwd","died","","аміам","","",""],
+          ["","ilu","jhb","","","",""],
+          ["yeti","","","erfw","щот","",""],
+          ["","","","","qerfw","",""]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": [
+        {
+          "code": "#cell9 = #cell9 + 1",
+          "type": "CLICK"
+        },
+        {
+          "code": "#table7 = RAND()",
+          "type": "INPUT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 210,
+        "y": 416,
+        "order": 5,
+        "width": 232,
+        "height": 65
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#b7ebfc",
+        "borderSize": "2",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Remark from Georgii: I'm assigning a rand value when inputting data to the table above"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 150,
+        "y": 341,
+        "order": 4,
+        "width": 288,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#b7ebfc",
+        "borderSize": "2",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Remark from Georgii: I'm incrementing the cell on each click on the table"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showDataInRows": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 482,
+        "y": 262,
+        "order": 6,
+        "width": 376,
+        "height": 369
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "salesData",
+      "cellStyles": {
+        "value": [
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""],
+          ["","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Jan",54,69,78,60,70],
+          ["Feb",67,66,67,70,80],
+          ["Mar",41,24,45,55,60],
+          ["Apr",55,48,45,67,75],
+          ["May",62,52,98,66,71],
+          ["Jun",45,51,32,105,89],
+          ["Jul",55,44,89,70,79],
+          ["Aug",73,53,34,44,60],
+          ["Sep",60,62,55,49,70],
+          ["Oct",76,79,67,90,85],
+          ["Nov",48,51,87,77,65],
+          ["Dec",79,68,90,66,89],
+          ["","","","","",""]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 32,
+        "y": 341,
+        "order": 3,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell9",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [62]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 32,
+        "y": 411,
+        "order": 2,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table7",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [0.7438219567650122]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "chart_data"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

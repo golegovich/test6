@@ -1,0 +1,276 @@
+{
+  "title": "NED_2261",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 20,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 20,
+        "y": 147,
+        "order": 1,
+        "width": 377,
+        "height": 236
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [107,262,262,262],
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "ODATA",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://services.odata.org/OData/OData.svc",
+          "endpoint": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Products",
+            "columns": [
+              {
+                "name": "Name",
+                "type": "Edm.DateTime",
+                "sortBy": null
+              },
+              {
+                "name": "Description",
+                "type": "Edm.String",
+                "sortBy": null
+              }
+            ],
+            "dbFilters": ["filter1","NED_2261_1.filter2otherpage"],
+            "noAggregate": false
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2261"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 20,
+        "y": 17,
+        "order": 2,
+        "width": 188,
+        "height": 84
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "filter1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [-1],
+        "viewType": "MENU",
+        "defaultItem": "Still water",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "ODATA",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://services.odata.org/OData/OData.svc",
+          "endpoint": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Products",
+            "columns": [
+              {
+                "name": "Description",
+                "type": "Edm.String",
+                "sortBy": null
+              }
+            ],
+            "dbFilters": [],
+            "noAggregate": false
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2261"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 22,
+        "y": 412,
+        "order": 3,
+        "width": 421,
+        "height": 75
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NED_2261"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#table1)",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": null
+}
